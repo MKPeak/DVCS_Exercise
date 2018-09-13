@@ -192,6 +192,7 @@
     <Content Include="Webpages\WebForm2.aspx" />
     <Content Include="Webpages\WebForm3.aspx" />
     <Content Include="Webpages\WebForm4.aspx" />
+    <Content Include="Webpages\WebForm5.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -412,6 +413,13 @@
     </Compile>
     <Compile Include="Webpages\WebForm4.aspx.designer.cs">
       <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Webpages\WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webpages\WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
