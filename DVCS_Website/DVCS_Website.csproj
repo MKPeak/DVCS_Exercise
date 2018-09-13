@@ -190,6 +190,7 @@
     <Content Include="Account\Web.config" />
     <Content Include="Webpages\WebForm1.aspx" />
     <Content Include="Webpages\WebForm2.aspx" />
+    <Content Include="Webpages\WebForm3.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -396,6 +397,13 @@
     </Compile>
     <Compile Include="Webpages\WebForm2.aspx.designer.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Webpages\WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Webpages\WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
